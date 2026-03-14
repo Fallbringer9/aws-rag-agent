@@ -1,0 +1,7 @@
+boto3
+faiss-cpu
+numpy
+fastapi
+uvicorn
+strands-agents
+python-dotenv
