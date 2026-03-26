@@ -1,0 +1,1 @@
+{"statusCode": 200, "headers": {"Content-Type": "application/json"}, "body": "{\"documents_indexed\": 1, \"chunks_indexed\": 4, \"bucket_name\": \"ragstack-ragbucket5b0c56a8-roa0vzxnbuds\", \"index_s3_key\": \"artifacts/index.faiss\", \"metadata_s3_key\": \"artifacts/metadata.json\"}"}

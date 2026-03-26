@@ -1,8 +1,46 @@
-echo ".venv/" >> .gitignore
-echo "__pycache__/" >> .gitignore
-echo ".env" >> .gitignore
-echo ".DS_Store" >> .gitignore.venv/
+# Python
 __pycache__/
-.env
-.DS_Store
+*.py[cod]
+*.pyo
+
+# Virtual environment
 .venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# AWS / credentials
+.aws/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Tests
+.coverage
+htmlcov/
+
+# CDK
+cdk.out/
+
+# Lambda layers (très important)
+layers/
+
+# Local data (documents + artifacts locaux)
+data/
+
+# Temporary files
+*.tmp

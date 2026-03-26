@@ -1,0 +1,9 @@
+AWS Lambda is a serverless compute service provided by Amazon Web Services. It allows developers to run code without provisioning or managing servers.
+
+With Lambda, you can execute code in response to events such as HTTP requests, file uploads to S3, database updates, or messages in a queue.
+
+The serverless model simplifies infrastructure management and allows developers to focus on application logic instead of server maintenance.
+
+Lambda automatically scales your application by running code in response to each trigger. The platform handles scaling, availability, and fault tolerance.
+
+This architecture is commonly used in modern cloud-native applications, especially when combined with services such as API Gateway, DynamoDB, S3, and EventBridge.
